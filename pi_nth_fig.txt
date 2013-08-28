@@ -12,7 +12,7 @@ public class FindPi
     System.out.print("Enter a digit (up to 15): ");
     userNum = keyInput.nextInt();
     
-    if (userNum > 15 || userNum < 0)
+    while (userNum > 15 || userNum < 1)
     {
       System.out.print("Enter a digit (up to 15): ");
       userNum = keyInput.nextInt();
