@@ -1,32 +1,3 @@
-import java.util.Scanner;
-
-public class FindPi
-{
-  public static void main( String args[])
-  {
-    String pi = "1415926535897932";
-    int userNum = 0;
-    String result = "3.";
-    Scanner keyInput = new Scanner( System.in );
-    
-    System.out.print("Enter a digit (up to 15): ");
-    userNum = keyInput.nextInt();
-    
-    if (userNum > 15 || userNum < 0)
-    {
-      System.out.print("Enter a digit (up to 15): ");
-      userNum = keyInput.nextInt();
-    }
-    
-    result += pi.substring(0, userNum);
-    System.out.println(result);
-  
-    
-  }
-}
-
-// did the edit work
-
 
 # Package Files #
 *.jar
