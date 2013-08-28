@@ -12,19 +12,18 @@ public class FindPi
     System.out.print("Enter a digit (up to 15): ");
     userNum = keyInput.nextInt();
     
-<<<<<<< HEAD
+
     while (userNum > 15 || userNum < 0)
     {
       System.out.print("Enter a digit (up to 15): ");
       userNum = keyInput.nextInt();
     }
-=======
+
     if (userNum > 15 || userNum < 0)
      {
        System.out.print("Enter a digit (up to 15): ");
        userNum = keyInput.nextInt();
       }
->>>>>>> refs/heads/pr/3
     
     result += pi.substring(0, userNum);
     System.out.println(result);
