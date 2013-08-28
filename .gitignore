@@ -18,12 +18,6 @@ public class FindPi
       System.out.print("Enter a digit (up to 15): ");
       userNum = keyInput.nextInt();
     }
-
-    if (userNum > 15 || userNum < 0)
-     {
-       System.out.print("Enter a digit (up to 15): ");
-       userNum = keyInput.nextInt();
-      }
     
     result += pi.substring(0, userNum);
     System.out.println(result);
@@ -31,14 +25,3 @@ public class FindPi
   }
 }
 
-<<<<<<< HEAD
-// did the edit work
-// did the edit work a second time
-
-=======
->>>>>>> refs/heads/pr/3
-
-# Package Files #
-*.jar
-*.war
-*.ear
